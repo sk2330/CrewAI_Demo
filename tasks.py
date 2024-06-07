@@ -1,7 +1,7 @@
 # Two tasks need to be created as we have two agents
 
 from crewai import Task
-from tools import tool
+from tools import yt_tool
 from agents import blog_researcher,blog_writer
 
 #Research task
